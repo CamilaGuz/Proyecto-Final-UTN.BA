@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Proyecto-Final</title>
+ 
+</head>
+<body class="body">
+    
+        <nav>
+            <a href="index.html">
+                <svg  width="200" height="80">
+                    <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#F0E9D2"></rect>
+                    <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#495579"></rect>
+                    <polygon points="55 45 ,95 45,115 62,30 62" fill="#F0E9D2" id="tec1"></polygon>
+                    <polygon points="57 48 ,92 48,104 58,43 58" fill="#495579" id="tec2"></polygon>
+                </svg>
+            </a> 
+    
+            <div class="menu">
+                <a class="linkHistoria" href="historia.html"> HISTORIA </a>
+                <a class="linkJuego" href="juego.html"> JUGUEMOS </a>
+            </div>
+        </nav>
+        <header>
+            <h1 class="titulo-PEH">JUGUEMOS UN POCO</h1> 
+         </header>
+    
+         <main>
+            <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+            
+                    <section class="juego">
+                        <div class="cajas" >
+                            <div class="caja" id="cajasoltar">
+                                <p>Arrastre y suelte la imagen aquí</p>
+                            </div>
+                            <div class="caja" id="cajasoltar2">
+                                <p>Arrastre y suelte la imagen aquí</p>
+                            </div>
+                            <div class="caja" id="cajasoltar3">
+                                <p>Arrastre y suelte la imagen aquí</p>
+                            </div>
+                        </div>
+                        <div id="cajaimagenes" >
+                            <img id="imagen1" src="images/rompe2.png" alt="imagen-rompecabezas" />
+                            <img id="imagen2" src="images/Rompe1.png" alt="imagen-rompecabezas" />
+                            <img id="imagen3" src="images/Rompe3.png" alt="imagen-rompecabezas" />
+                        </div>
+                    </section>
+                    <button onclick="reinicio()" class="botonesVideo reinicio" >Reiniciar</button>
+            
+                </main>
+    
+       <!--<footer>
+            <div class="footer-left">
+            <img class="logo-footer" src="images/logo.png">
+                <h3 class="titulo-footer">PROGRAMACION <br> E <br> HISTORIA </h3>
+            </div>
+               <div>Sitio con fines educativos - Creado por M.Victoria Lopez</div>
+        </footer>-->
+      
+    
+
+
+    <script src="js/scriptJuego.js"></script>
+</body>
+</html>

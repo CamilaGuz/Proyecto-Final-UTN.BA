@@ -1,0 +1,262 @@
+*{
+    font-family: 'Montserrat', sans-serif; 
+    margin: auto 0px;
+}
+.body{
+ 
+ background-color: rgb(24, 28, 48);
+ color: #E6DDC4;
+}
+p{
+    color: #E6DDC4;
+}
+
+
+nav{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 0px 40px;
+
+}
+.menu{
+ display: flex;
+ width: 300px;
+ justify-content: space-around;
+}
+main{
+    padding: 100px 20px;
+}
+.linkHistoria, .linkJuego, .botonesVideo{
+    box-shadow: 2px 3px #678983;
+    text-decoration: none;
+    background-color: #E6DDC4;
+    color:#181D31 ;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 300;
+    
+}
+.item-menu:active{
+    transform: translate(3px, 2px);
+}
+.item-menu:active > .item-link{
+    box-shadow:0px 0px ;
+}
+
+/*INDEX*/
+
+
+header{
+ background: url(images/codigo.jpg) 50% 0 fixed ;
+ background-size: cover;
+ font-size: 28px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ min-height: 500px;
+ color: #eeeeee;
+ padding: 0px 100px;
+
+}
+h1{
+
+    text-shadow: 2px 2px gray, 6px 6px black;
+}
+h2{
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-size:40px ; 
+    color: #678983;
+}
+.titulo-PEH{
+ text-align: center;
+}
+
+.contenido{
+    margin: 100px 0px;
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+ gap: 20px;
+}
+
+.card{
+ width: 350px;
+ height: 400px;
+ display: flex;
+ flex-direction: column;
+ border: 5px solid #678983;
+ background-color: #E6DDC4;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.copete-card{
+width: 90%;
+height: 30px;
+color:#181D31;
+text-align: center;
+
+}
+
+.img-card{
+ width: 100%;
+ margin: 0px;
+
+}
+
+.btn-ver{
+        color: #F0F5E4;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #181D31;
+        text-align: center;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        box-shadow: 2px 3px #678983;
+        margin-bottom: 20px;
+        width: 40%;
+   
+}
+
+.btn-ver:active{
+    box-shadow: 0px 0px darkgray;
+    transform: translate(3px, 2px);
+}
+
+/* FOOTER*/
+.logo-footer{
+    height: 80px;
+}
+footer{
+    background-color: #678983;
+    height: 100px;
+    display: flex;
+    color: #181D31;
+    justify-content: space-between;
+    padding:  40px;
+    align-items: center;
+
+ 
+}
+
+.footer-left{
+ display: flex;
+ justify-content: space-between;
+ height: 60px;
+ width:300px;
+}
+
+.titulo-footer{
+    font-size: 14px;
+}
+/*HISTORIA*/
+.contenido-historia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-historia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:80px 50px;
+    background-color: linear-gradient(10% #E6DDC4,#181D31 100%);
+    gap: 20px;
+
+    
+}
+.text-historia{
+    width: 45%;
+}
+
+/*VIDEO*/
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+
+}
+.barra{
+    background-color: #1d1d1d;
+    border-radius: 10px;
+    padding: 2px 5px;
+    justify-content: space-between;
+    display: flex;
+}
+    
+   
+.botonera{
+    display: flex;
+    gap: 20px;
+}
+.contenedor{
+    padding: 5px;
+    background-color: black;
+    width: 70%;
+}
+
+#play,#pause{
+   width: 80px;
+}
+
+
+.botonesVideo:active{
+    box-shadow: 0px 0px darkgray;
+    transform: translate(3px, 2px);
+}
+#duracion{
+    padding-top: 28px;
+    padding-right: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  
+
+}
+/*JUEGO*/
+
+.juego{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cajas{
+    display: flex;
+    flex-direction: row;
+}
+.caja{
+    width: 275px;
+    height: 400px;
+    display: flex;
+    border: 2px solid black;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.caja:hover{
+    background-color: #1d1d1d;
+    
+}
+.caja:hover>p{
+    color: #E6DDC4;
+}
+#cajaimagenes{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 40px;
+}
+#imagen1,#imagen2,#imagen3{
+    width: 275px;
+    height: 400px;
+}
+.reinicio{
+    display: flex;
+    margin: auto;
+    padding: 10px 100px;
+}
